@@ -8,9 +8,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'PT Mono', monospace;
-}
-
-html {
     max-width: 1366px;
 }
 
@@ -149,26 +146,26 @@ p{
 
 .album {
 
-    width: 1366px;
+    max-width: 1366px;
     display: flex;
 }
 
 .card {
-    width: 350px;
+    width: 500px;
     height: 700px;
-    margin: 50px;
+    margin: 25px;
     border-radius: 50px;
     background: #E8E8E4;
 }
 
 .card img {
     margin-top: 10px;
-    width: 70%;
+    width: 90%;
     border-radius: 50px;
 }
 
 .card h3 {
-    width: 350px;
+    width: 200px;
     height:50px;
     text-align: center;
     padding-left: 0px;
@@ -178,6 +175,9 @@ p{
 
 .card p {
     margin-top: 15px;
+    padding-left: 15px;
+    text-align: center;
+    width: 200px;
 
 }
 
